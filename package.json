@@ -1,0 +1,22 @@
+{
+  "name": "pip-parse",
+  "version": "1.0.0",
+  "description": "A pip `requirements.txt` parser",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/redyetidev/pip-parse.git"
+  },
+  "keywords": [
+    "pip",
+    "parse",
+    "requirements",
+    "python"
+  ],
+  "author": "RedYetiDev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/redyetidev/pip-parse/issues"
+  },
+  "homepage": "https://github.com/redyetidev/pip-parse#readme"
+}
