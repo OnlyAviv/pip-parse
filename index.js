@@ -80,9 +80,9 @@ function parseLine(line, loose = false) {
 
     if (line.startsWith('-')) {
         const [flag, ...args] = line.split(' ');
-        const numValues = SUPPORTED_OPTIONS.get(flag);
 
         if (!loose) {
+            const numValues = SUPPORTED_OPTIONS.get(flag);
             if (numValues === undefined) throw new Error(`Unsupported Flag: ${flag}`);
             if (numValues !== args.length) throw new Error(`Invalid Flag Options: ${args.join(', ')}`);
         }
