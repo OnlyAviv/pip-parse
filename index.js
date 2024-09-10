@@ -1,21 +1,4 @@
-// Splits content into lines and handles lines ending with a backslash
-function splitLines(content) {
-    const lines = content.split('\n');
-    const result = [];
-    let currentLine = '';
-
-    for (const line of lines) {
-        const trimmedLine = line.trim();
-        if (trimmedLine.endsWith('\\')) {
-            currentLine += trimmedLine.slice(0, -1).trim() + ' ';
-        } else {
-            result.push((currentLine + trimmedLine).trim());
-            currentLine = '';
-        }
-    }
-
-    return result;
-}
+const splitLines = require('split-with-continuation');
 
 /**
  * 

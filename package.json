@@ -1,6 +1,6 @@
 {
   "name": "pip-parse",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A pip `requirements.txt` parser",
   "main": "index.js",
   "repository": {
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/redyetidev/pip-parse/issues"
   },
-  "homepage": "https://github.com/redyetidev/pip-parse#readme"
+  "homepage": "https://github.com/redyetidev/pip-parse#readme",
+  "dependencies": {
+    "split-with-continuation": "^1.0.0"
+  }
 }
