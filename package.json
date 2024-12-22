@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/onlyaviv/pip-parse.git"
+    "url": "git+https://github.com/avivkeller/pip-parse.git"
   },
   "keywords": [
     "pip",
@@ -16,9 +16,9 @@
   "author": "Aviv Keller",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/onlyaviv/pip-parse/issues"
+    "url": "https://github.com/avivkeller/pip-parse/issues"
   },
-  "homepage": "https://github.com/onlyaviv/pip-parse#readme",
+  "homepage": "https://github.com/avivkeller/pip-parse#readme",
   "dependencies": {
     "split-with-continuation": "^1.0.0"
   }
